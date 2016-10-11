@@ -16,7 +16,7 @@ RUN apt-get install -y libjpeg-dev libtiff-dev zlib1g-dev libfreetype6-dev liblc
 
 
 # Wagtail demo
-RUN cd / && git clone https://github.com/torchbox/wagtaildemo.git
+RUN cd / && git clone https://gitlab.com/mael.louvet/wagtaildemo.git
 
 RUN cd /wagtaildemo && pip install -r requirements/dev.txt
 
