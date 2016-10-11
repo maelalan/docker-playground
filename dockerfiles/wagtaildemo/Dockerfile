@@ -5,7 +5,7 @@
 # Installation script for a full install.. could be usefull in the future: https://wagtail.io/ubuntu.sh
 
 FROM dockerfile/ubuntu
-MAINTAINER Øyvind Skaar
+MAINTAINER Mael Louvet
 
 RUN apt-get update
 RUN apt-get install -y build-essential
